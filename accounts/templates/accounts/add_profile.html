@@ -1,0 +1,33 @@
+{% extends 'band/base.html' %}
+{% load static %}
+
+{% block title %}profile{% endblock %}
+{% block content %}
+
+<center>
+<h1>
+Add Profile
+</h1>
+<br/><br/>
+{% if submitted %}
+    Your profile was submitted successfully!!!
+
+{% else %}
+    <form action="" method = POST>
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Submit" class="btn btn-secondary">
+    </form>
+
+{% endif %}
+</center>
+<div>
+
+
+            <p>
+
+
+            </p>
+
+</div>
+{% endblock %}
