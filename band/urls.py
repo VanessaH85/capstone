@@ -1,6 +1,8 @@
-from django.urls import path
+"""Band urls"""
 
+from django.urls import path
 from . import views
+
 
 app_name = 'band'
 urlpatterns = [
