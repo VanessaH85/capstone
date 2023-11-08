@@ -1,4 +1,12 @@
 from django.db import models
+"""Accounts Model
+
+Refers to the reference source for the database fields and associated behaviour for the data you consume
+in your application. This app will need to store the content of each user's information.  Each class in 
+models.py is a database table. Each attribute/variable of the model represents a database field. 
+You specify a data type and maybe some further attributes (e.g. max_length) for each attribute."""
+
+
 from django.contrib.auth.models import User
 
 

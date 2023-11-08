@@ -1,3 +1,6 @@
+"""Django ModelForm is a class that is used to directly convert a model into a Django form. Because
+you are building a database-driven app, the forms are map closely to Django models"""
+
 from django import forms
 from django.forms import ModelForm
 from .models import UserProfile
