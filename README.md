@@ -10,11 +10,13 @@
 - Credits
 <br  />
 <br  />
-### About the Project
+___________________________
+### About the Project <br />
 This program will assist you to build a small website (for example, a simple site for a fictional band, or political candidate) using Django.  The site has 3 pages and 1 database-driven component.
 <br  />
 <br  />
-### Getting Started
+____________________________
+### Getting Started <br />
 You may access the project either by using Dockerhub or Django.
 
 #### Using Dockerhub
@@ -29,7 +31,7 @@ https://hub.docker.com
 
   ```` $pull hogwarts1/docker_django:django_docker ````
 <br  />
-<br  />
+
 
 #### Using Django
 ##### Prerequisites
@@ -67,6 +69,7 @@ https://hub.docker.com
 - And navigate to http://127.0.0.1:8000
 <br  />
 <br  />
+_____
 ### Usage
 - Home <br />
 By clicking ````Home```` on the sample application website, you are taken to an introductory page of the website, set as the default or start-up page on a browser.
@@ -81,6 +84,7 @@ By clicking ```Songs``` on the sample application website, you are taken to a pa
 By clicking ```Login``` on the sample application website, you are taken to a page where the user will be prompted to login using username and password.
 <br  />
 <br  />
+____
 ### Credit
 - Vanessa Hlabahlaba @vanessah85
 
