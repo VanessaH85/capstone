@@ -2,12 +2,12 @@
 ## Building a small website for a band
 
 ### Table of Contents
-- About the Project
-- Getting Started
-  - Using Dockerhub
-  - Using Django
-- Usage
-- Credits
+- [About the Project](#about-the-project)
+- [Getting Started](getting-started)
+  - [Using Dockerhub](using-dockerhub)
+  - [Using Django](using-django)
+- [Usage](usage)
+- [Credits](credits)
 <br  />
 <br  />
 
@@ -28,9 +28,13 @@ https://www.docker.com/products/docker-desktop
 https://hub.docker.com 
 
 ##### Installation
-- To run the project, use the Docker pull command:
+- Open your terminal and type the following command:
 
-  ```` $pull hogwarts1/docker_django:django_docker ````
+  ````docker pull hogwarts1/docker_django:django_docker ````
+- Once the image is downloaded, run the following command:
+
+  ```` docker run -t -p 8000:80/hogwarts1/docker_django:django_docker````
+- Navigate to: http://localhost:8000 to start using the application.
 <br  />
 
 
@@ -42,30 +46,38 @@ https://hub.docker.com
 #### Installation
 - The first thing to do is to clone the repository:
 
-    ```$ git clone https://github.com/VanessaH85/capstone.git```
+    ```git clone https://github.com/VanessaH85/capstone.git```
 
-     ``` $ cd capstone```
+     ``` cd capstone```
 
-- Create a virtual environment to install dependencies in and activate it:
 
-  `````$ virtualenv2 --no-site-packages env`````
+- Install virtual environment: ```pip install virtualenv```
+- Create a new virtual environment: 
 
-  `````$ source env/bin/activate`````
+  ```virtualenv <name_of_virtual_environment>```
+- Activate the virtual environment: ```<name_of_virtual_environment>\Scripts\activate```
 
-- Install Django:
-(env)$ pip install django 
--Verify that Django is installed correctly:
-```(env)$ django-admin --version``` 
+ 
+
+- Install Django: ```(env) pip install django```
+- Verify that Django is installed correctly:
+```(env) django-admin --version``` 
 
 - Then install the dependencies:
 
-  ```(env)$ pip install -r requirements.txt```
+  ```(env) pip install -r requirements.txt```
 
-- Once pip has finished downloading the dependencies:
- 
-  ```(env)$ cd project```
+- Once pip has finished downloading the dependencies: 
+  ```(env) cd project```
+- Create datatables run commands: 
 
-  ```(env)$ python manage.py runserver```
+  ```python manage.py migrate```
+
+  ```python manage.py makemigrations```
+
+  ```python manage.py migrate```
+- Run the server: 
+  ```(env) python manage.py runserver```
    
 - And navigate to http://127.0.0.1:8000
 <br  />
