@@ -2,15 +2,14 @@
 ## Building a small website for a band
 
 ### Table of Contents
-- [About the Project](#about-the-project)
-- [Getting Started](getting-started)
-  - [Using Dockerhub](using-dockerhub)
-  - [Using Django](using-django)
-- [Usage](usage)
-- [Credits](credits)
+- [About the Project](#About-the-Project)
+- [Getting Started](#Getting-Started)
+  - [Using Dockerhub](#Using-Dockerhub)
+  - [Using Django](#Using-Django)
+- [Usage](#Usage)
+- [Credit](#Credit)
 <br  />
 <br  />
-
 
 ### About the Project <br />
 This program will assist you to build a small website (for example, a simple site for a fictional band, or political candidate) using Django.  The site has 3 pages and 1 database-driven component.
