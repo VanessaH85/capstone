@@ -11,12 +11,12 @@
 <br  />
 <br  />
 
-### About the Project <br />
+### About the Project  
 This program will assist you to build a small website (for example, a simple site for a fictional band, or political candidate) using Django.  The site has 3 pages and 1 database-driven component.
 <br  />
 <br  />
 
-### Getting Started <br />
+### Getting Started 
 You may access the project either by using Dockerhub or Django.
 
 #### Using Dockerhub
